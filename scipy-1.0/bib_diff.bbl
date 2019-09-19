@@ -362,13 +362,14 @@ Publishing: Players, Agents and Agendas}}}%%%
 
 %DIFDELCMD < \bibitem{matlab}
 %DIFDELCMD <  %%%
-\emph{%DIFDELCMD < \bibinfo{title}{{MATLAB}}%%%
-} %DIFAUXCMD
-\DIFdel{(}%DIFDELCMD < \bibinfo{publisher}{The {MathWorks}, Inc.}%%%
+\emph{\DIFdel{\bibinfo{title}{{MATLAB}}%%%
+}} %DIFAUXCMD
+\DIFdel{(\bibinfo{publisher}{The {MathWorks}, Inc.}}%%%
 \DIFdel{,
-  }%DIFDELCMD < \bibinfo{address}{Natick, MA, United States}%%%
+\bibinfo{address}{Natick, MA, United States}}%%%
 \DIFdel{).
-}%DIFDELCMD < \newblock \urlprefix\url{https://www.mathworks.com/products/matlab.html}%%%
+}%DIFDELCMD < \newblock 
+\DIFdel{\\\urlprefix\url{https://www.mathworks.com/products/matlab.html}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
