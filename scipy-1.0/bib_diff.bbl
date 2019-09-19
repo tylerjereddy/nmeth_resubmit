@@ -400,58 +400,64 @@ Publishing: Players, Agents and Agendas}}}%%%
 \newblock \urlprefix\url{https://github.com/numpy/numpy/releases/tag/v1.0}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{dubois2007guest}
-%DIFDELCMD < \bibinfo{author}{Dubois, P.~F.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{P}ython: Batteries included}}%%%
+\DIFdel{\bibinfo{author}{Dubois, P.~F.}}
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython: Batteries included}}}%%%
 \DIFdel{.
 }%DIFDELCMD < \newblock {%%%
-\emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
-}%DIFAUXCMD
+\emph{\DIFdel{\JournalTitle{Computing in Science \& Engineering}%%%
+}}%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{7--9} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
+\textbf{\DIFdel{\bibinfo{volume}{9}%%%
+}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{7--9}} %%%
+\DIFdel{(\bibinfo{year}{2007}}%%%
 \DIFdel{).
-}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.51}%%%
+}%DIFDELCMD < \newblock 
+\DIFdel{\\\urlprefix\url{https://doi.org/10.1109/MCSE.2007.51}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{oliphant2007python}
-%DIFDELCMD < \bibinfo{author}{Oliphant, T.~E.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{P}ython for scientific
-%DIFDELCMD <   computing}}%%%
+\DIFdel{\bibinfo{author}{Oliphant, T.~E.}}
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython for scientific
+computing}}}%%%
 \DIFdel{.
 }%DIFDELCMD < \newblock {%%%
-\emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
+\emph{\DIFdel{\JournalTitle{Computing in Science \& Engineering}}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{10--20} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
+\textbf{\DIFdel{\bibinfo{volume}{9}%%%
+}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{10--20}} %%%
+\DIFdel{(\bibinfo{year}{2007}}%%%
 \DIFdel{).
-}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.58}%%%
+}%DIFDELCMD < \newblock 
+\DIFdel{\urlprefix\url{https://doi.org/10.1109/MCSE.2007.58}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{perez2007ipython}
-%DIFDELCMD < \bibinfo{author}{P{\'e}rez, F.} %%%
-\DIFdel{\& }%DIFDELCMD < \bibinfo{author}{Granger, B.~E.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{IP}ython: a system for interactive
-%DIFDELCMD <   scientific computing}}%%%
+\DIFdel{\bibinfo{author}{P{\'e}rez, F.}} %%%
+\DIFdel{\& \bibinfo{author}{Granger, B.~E.}}
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{IP}ython: a system for interactive
+scientific computing}}}%%%
 \DIFdel{.
 }%DIFDELCMD < \newblock {%%%
-\emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
-}%DIFAUXCMD
+\emph{\DIFdel{\JournalTitle{Computing in Science \& Engineering}%%%
+}}%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-} %DIFAUXCMD
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
+\textbf{\DIFdel{\bibinfo{volume}{9}%%%
+}} %DIFAUXCMD
+\DIFdel{(\bibinfo{year}{2007}}%%%
 \DIFdel{).
-}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.53}%%%
+}%DIFDELCMD < \newblock 
+\DIFdel{\urlprefix\url{https://doi.org/10.1109/MCSE.2007.53}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
