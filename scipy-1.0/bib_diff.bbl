@@ -264,13 +264,13 @@ York, NY, USA}}%%%
   \urlprefix\url{https://mail.python.org/pipermail/scipy-dev/2001-June/000000.html}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{first-scipy-rel}
-%DIFDELCMD < \bibinfo{author}{Jones, E.}
-%DIFDELCMD < \newblock \bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
-%DIFDELCMD <   {P}ython} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2001}%%%
-\DIFdel{).
-}%DIFDELCMD < \newblock
-%DIFDELCMD <   \urlprefix\url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}%%%
+\DIFdel{\bibinfo{author}{Jones, E.}}
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
+{P}ython}} %%%
+\DIFdel{(\bibinfo{year}{2001})}%%%
+%DIFDELCMD < \newblock
+\DIFdel{\\\urlprefix\url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
