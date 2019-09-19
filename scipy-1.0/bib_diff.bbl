@@ -186,21 +186,21 @@ collection of {ODE} solvers}}}%%%
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{piessens1983quadpack}
-%DIFDELCMD < \bibinfo{author}{Piessens, R.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{de~Doncker-Kapenga, E.}%%%
+\DIFdel{\bibinfo{author}{Piessens, R.}}%%%
+\DIFdel{, \bibinfo{author}{de~Doncker-Kapenga, E.}}%%%
 \DIFdel{,
-  }%DIFDELCMD < \bibinfo{author}{{\"U}berhuber, C.~W.} %%%
-\DIFdel{\& }%DIFDELCMD < \bibinfo{author}{Kahaner, D.~K.}
+  \bibinfo{author}{{\"U}berhuber, C.~W.}} %%%
+\DIFdel{\& \bibinfo{author}{Kahaner, D.~K.}}
 %DIFDELCMD < \newblock %%%
-\emph{%DIFDELCMD < \bibinfo{title}{{QUADPACK}: a subroutine package for automatic
-%DIFDELCMD <   integration}%%%
+\emph{\DIFdel{\bibinfo{title}{{QUADPACK}: a subroutine package for automatic integration}}%%%
 } %DIFAUXCMD
-\DIFdel{(}%DIFDELCMD < \bibinfo{publisher}{Springer-Verlag}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{address}{New
-%DIFDELCMD <   York, NY, USA}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{year}{1983}%%%
+\DIFdel{(\bibinfo{publisher}{Springer-Verlag}}%%%
+\DIFdel{, \bibinfo{address}{New
+York, NY, USA}}%%%
+\DIFdel{, \bibinfo{year}{1983}}%%%
 \DIFdel{).
-}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1007/978-3-642-61786-7}%%%
+}%DIFDELCMD < \newblock 
+\DIFdel{\urlprefix\url{https://doi.org/10.1007/978-3-642-61786-7}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
