@@ -305,21 +305,21 @@ York, NY, USA}}%%%
   \urlprefix\url{https://conference.scipy.org/scipy2011/slides/greenfield\_keynote\_astronomy.pdf}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{schroeder:2006:VTK}
-%DIFDELCMD < \bibinfo{author}{Schroeder, W.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{Martin, K.} %%%
+\DIFdel{\bibinfo{author}{Schroeder, W.}}%%%
+\DIFdel{\bibinfo{author}{Martin, K.}} %%%
 \DIFdel{\&
-  }%DIFDELCMD < \bibinfo{author}{Lorensen, B.}
+\bibinfo{author}{Lorensen, B.}}
 %DIFDELCMD < \newblock %%%
-\emph{%DIFDELCMD < \bibinfo{title}{The Visualization Toolkit: An Object-Oriented
-%DIFDELCMD <   Approach to {3D} Graphics}%%%
+\emph{\DIFdel{\bibinfo{title}{The Visualization Toolkit: An Object-Oriented
+Approach to {3D} Graphics}}%%%
 } %DIFAUXCMD
-\DIFdel{(}%DIFDELCMD < \bibinfo{publisher}{Kitware}%%%
+\DIFdel{(\bibinfo{publisher}{Kitware}}%%%
 \DIFdel{,
-  }%DIFDELCMD < \bibinfo{year}{2004}%%%
-\DIFdel{), }%DIFDELCMD < \bibinfo{edition}{3rd} %%%
+\bibinfo{year}{2004}}%%%
+\DIFdel{),\bibinfo{edition}{3rd}} %%%
 \DIFdel{edn.
 }%DIFDELCMD < \newblock
-%DIFDELCMD <   \urlprefix\url{http://cds.cern.ch/record/798217/files/1930934122_TOC.pdf}%%%
+\DIFdel{\urlprefix\url{http://cds.cern.ch/record/798217/files/1930934122_TOC.pdf}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
