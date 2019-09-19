@@ -123,8 +123,8 @@
   \urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.211.6702\&rep=rep1\&type=pdf}.
 
 \bibitem{cpython-source}
-\DIFdel{Developers, C.}
-\bibinfo{author}{{\DIFadd{CPython Developers}}}\DIFadd{.
+\DIFdelbegin \DIFdel{\bibinfo{author}{Developers, C.}
+}\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{author}{{CPython Developers}}.
 }\DIFaddend \newblock \bibinfo{title}{The {P}ython programming language}
   (\bibinfo{year}{2019}).
 \newblock \urlprefix\url{https://github.com/python/cpython}.
@@ -169,60 +169,47 @@
 \newblock \urlprefix\url{http://pylab.sourceforge.net/multipack.html}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{hindmarsh1983odepack}
-\DIFdel{\bibinfo{author}{Hindmarsh, A.~C.}}
-\DIFdel{\newblock \bibinfo{journal}{\bibinfo{title}{{ODEPACK}, a systematized
-collection of {ODE} solvers}}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Hindmarsh, A.~C.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{ODEPACK}, a systematized
+  collection of {ODE} solvers}}.
 }%DIFDELCMD < \newblock {%%%
-\emph{\DIFdel{\JournalTitle{Scientific Computing}}%%%
+\emph{%DIFDELCMD < \JournalTitle{Scientific Computing}%%%
 }%DIFAUXCMD
-\DIFdel{\bibinfo{pages}{55--64}}
-%DIFDELCMD <   %%%
-\DIFdel{(\bibinfo{year}{1983}}%%%
-\DIFdel{).
+%DIFDELCMD < } %%%
+\DIFdel{\bibinfo{pages}{55--64}
+  (\bibinfo{year}{1983}).
 }%DIFDELCMD < \newblock
-\DIFdel{\urlprefix\url{https://www3.nd.edu/~powers/ame.60636/hindmarsh1983.pdf}}%%%
+%DIFDELCMD <   \urlprefix\url{https://www3.nd.edu/~powers/ame.60636/hindmarsh1983.pdf}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{piessens1983quadpack}
-\DIFdel{\bibinfo{author}{Piessens, R.}}%%%
-\DIFdel{, \bibinfo{author}{de~Doncker-Kapenga, E.}}%%%
-\DIFdel{,
-  \bibinfo{author}{{\"U}berhuber, C.~W.}} %%%
-\DIFdel{\& \bibinfo{author}{Kahaner, D.~K.}}
-%DIFDELCMD < \newblock %%%
-\emph{\DIFdel{\bibinfo{title}{{QUADPACK}: a subroutine package for automatic integration}}%%%
-} %DIFAUXCMD
-\DIFdel{(\bibinfo{publisher}{Springer-Verlag}}%%%
-\DIFdel{, \bibinfo{address}{New
-York, NY, USA}}%%%
-\DIFdel{, \bibinfo{year}{1983}}%%%
-\DIFdel{).
-}%DIFDELCMD < \newblock 
-\DIFdel{\urlprefix\url{https://doi.org/10.1007/978-3-642-61786-7}}%%%
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Piessens, R.}, \bibinfo{author}{de~Doncker-Kapenga, E.},
+  \bibinfo{author}{{\"U}berhuber, C.~W.} \& \bibinfo{author}{Kahaner, D.~K.}
+}%DIFDELCMD < \newblock %%%
+\emph{\DIFdel{\bibinfo{title}{{QUADPACK}: a subroutine package for automatic
+  integration}}} %DIFAUXCMD
+\DIFdel{(\bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{New
+  York, NY, USA}, \bibinfo{year}{1983}).
+}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1007/978-3-642-61786-7}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{osti_6997568}
-\DIFdel{\bibinfo{author}{Mor{\'e}, J.~J.}}%%%
-\DIFdel{, \bibinfo{author}{Garbow, B.~S.}} %%%
-\DIFdel{\&
-\bibinfo{author}{Hillstrom, K.~E.}}
-%DIFDELCMD < \newblock 
-\DIFdel{\bibinfo{title}{User guide for {MINPACK-1}}}%%%
-\DIFdel{.
-}%DIFDELCMD < \newblock 
-\DIFdel{\bibinfo{type}{Tech. Rep.}} 
-\DIFdel{\bibinfo{number}{ANL-80-74}}%%%
-\DIFdel{,
-  }%DIFDELCMD < \bibinfo{institution}{Argonne National Laboratory}%%%
-\DIFdel{,
-  }%DIFDELCMD < \bibinfo{address}{Argonne, IL, USA} %%%
-\DIFdel{(\bibinfo{year}{1980}}%%%
-\DIFdel{).
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Mor{\'e}, J.~J.}, \bibinfo{author}{Garbow, B.~S.} \&
+  \bibinfo{author}{Hillstrom, K.~E.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{title}{User guide for {MINPACK-1}}.
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{type}{Tech. Rep.} \bibinfo{number}{ANL-80-74},
+  \bibinfo{institution}{Argonne National Laboratory},
+  \bibinfo{address}{Argonne, IL, USA} (\bibinfo{year}{1980}).
 }%DIFDELCMD < \newblock
-\DIFdel{\urlprefix\url{http://cds.cern.ch/record/126569/files/CM-P00068642.pdf}}%%%
+%DIFDELCMD <   \urlprefix\url{http://cds.cern.ch/record/126569/files/CM-P00068642.pdf}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
@@ -242,40 +229,41 @@ York, NY, USA}}%%%
 \newblock
   \urlprefix\url{https://web.archive.org/web/20001022231108/http://www.nmr.mgh.harvard.edu/Neural\_Systems\_Group/gary/python.html}.
 
-\DIFaddbegin \bibitem{first-scipy-rel}
-\DIFadd{\bibinfo{author}{Jones, E.}}
-\newblock \DIFadd{\bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
-  {P}ython}} \DIFadd{(\bibinfo{year}{2001})}
+\DIFdelbegin %DIFDELCMD < \bibitem{archived-scipyorg}
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{{SciPy Developers}}.
+}\DIFdelend \DIFaddbegin \bibitem{first-scipy-rel}
+\DIFadd{\bibinfo{author}{Jones, E.}
+}\DIFaddend \newblock \DIFdelbegin \DIFdel{\bibinfo{title}{{SciPy.org}} }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
+  {P}ython} }\DIFaddend (\bibinfo{year}{2001}).
 \newblock
-  \DIFadd{\\\urlprefix\url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}}\DIFadd{.
-}
+  \urlprefix\DIFdelbegin %DIFDELCMD < \url{https://web.archive.org/web/20010309040805/http://scipy.org:80/}%%%
+\DIFdelend \DIFaddbegin \url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}\DIFaddend .
 
-\DIFaddend \bibitem{archived-scipyorg}
-\bibinfo{author}{{SciPy Developers}}.
-\newblock \bibinfo{title}{{SciPy.org}} (\bibinfo{year}{2001}).
+\DIFdelbegin %DIFDELCMD < \bibitem{new-scipy-list}
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Vaught, T.~N.}
+}\DIFdelend \DIFaddbegin \bibitem{archived-scipyorg}
+\DIFadd{\bibinfo{author}{{SciPy Developers}}.
+}\DIFaddend \newblock \DIFdelbegin \DIFdel{\bibinfo{title}{{SciPy} developer mailing list now online}
+  }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{title}{{SciPy.org}} }\DIFaddend (\bibinfo{year}{2001}).
 \newblock
-  \urlprefix\url{https://web.archive.org/web/20010309040805/http://scipy.org:80/}.
-
-\bibitem{new-scipy-list}
-\bibinfo{author}{Vaught, T.~N.}
-\newblock \bibinfo{title}{{SciPy} developer mailing list now online}
-  (\bibinfo{year}{2001}).
-\newblock
-  \urlprefix\url{https://mail.python.org/pipermail/scipy-dev/2001-June/000000.html}.
+  \urlprefix\DIFdelbegin %DIFDELCMD < \url{https://mail.python.org/pipermail/scipy-dev/2001-June/000000.html}%%%
+\DIFdelend \DIFaddbegin \url{https://web.archive.org/web/20010309040805/http://scipy.org:80/}\DIFaddend .
 
 \DIFdelbegin %DIFDELCMD < \bibitem{first-scipy-rel}
-\DIFdel{\bibinfo{author}{Jones, E.}}
-%DIFDELCMD < \newblock 
-\DIFdel{\bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
-{P}ython}} %%%
-\DIFdel{(\bibinfo{year}{2001})}%%%
-%DIFDELCMD < \newblock
-\DIFdel{\\\urlprefix\url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}}%%%
-\DIFdel{.
-}%DIFDELCMD < 
-
 %DIFDELCMD < %%%
-\DIFdelend \bibitem{first-scipy-docs}
+\DIFdel{\bibinfo{author}{Jones, E.}
+}\DIFdelend \DIFaddbegin \bibitem{new-scipy-list}
+\DIFadd{\bibinfo{author}{Vaught, T.~N.}
+}\DIFaddend \newblock \DIFdelbegin \DIFdel{\bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
+  {P}ython} }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{title}{{SciPy} developer mailing list now online}
+  }\DIFaddend (\bibinfo{year}{2001}).
+\newblock
+  \urlprefix\DIFdelbegin %DIFDELCMD < \url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}%%%
+\DIFdelend \DIFaddbegin \url{https://mail.python.org/pipermail/scipy-dev/2001-June/000000.html}\DIFaddend .
+
+\bibitem{first-scipy-docs}
 \bibinfo{author}{Vaught, T.~N.}
 \newblock \bibinfo{title}{Reference documentation and tutorial documentation
   are now available for download as tarballs} (\bibinfo{year}{2002}).
@@ -305,82 +293,63 @@ York, NY, USA}}%%%
   \urlprefix\url{https://conference.scipy.org/scipy2011/slides/greenfield\_keynote\_astronomy.pdf}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{schroeder:2006:VTK}
-\DIFdel{\bibinfo{author}{Schroeder, W.}}%%%
-\DIFdel{\bibinfo{author}{Martin, K.}} %%%
-\DIFdel{\&
-\bibinfo{author}{Lorensen, B.}}
-%DIFDELCMD < \newblock %%%
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Schroeder, W.}, \bibinfo{author}{Martin, K.} \&
+  \bibinfo{author}{Lorensen, B.}
+}%DIFDELCMD < \newblock %%%
 \emph{\DIFdel{\bibinfo{title}{The Visualization Toolkit: An Object-Oriented
-Approach to {3D} Graphics}}%%%
-} %DIFAUXCMD
-\DIFdel{(\bibinfo{publisher}{Kitware}}%%%
-\DIFdel{,
-\bibinfo{year}{2004}}%%%
-\DIFdel{),\bibinfo{edition}{3rd}} %%%
-\DIFdel{edn.
+  Approach to {3D} Graphics}}} %DIFAUXCMD
+\DIFdel{(\bibinfo{publisher}{Kitware},
+  \bibinfo{year}{2004}), \bibinfo{edition}{3rd} edn.
 }%DIFDELCMD < \newblock
-\DIFdel{\urlprefix\url{http://cds.cern.ch/record/798217/files/1930934122_TOC.pdf}}%%%
+%DIFDELCMD <   \urlprefix\url{http://cds.cern.ch/record/798217/files/1930934122_TOC.pdf}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{mayavi-intro}
-\DIFdel{\bibinfo{author}{Ramachandran, P.}}
-%DIFDELCMD < \newblock 
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Ramachandran, P.}
+}%DIFDELCMD < \newblock %%%
 \DIFdel{\bibinfo{title}{{MayaVi} uses {P}ython for scientific data
-visualization}} %%%
-\DIFdel{(\bibinfo{year}{2003}}%%%
-\DIFdel{).
+  visualization} (\bibinfo{year}{2003}).
 }%DIFDELCMD < \newblock
-\DIFdel{\\\urlprefix\url{https://web.archive.org/web/20030731122452/http://pythonology.org/success\&story=mayavi}}%%%
+%DIFDELCMD <   \urlprefix\url{https://web.archive.org/web/20030731122452/http://pythonology.org/success\&story=mayavi}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{Kluyver:2016aa}
-\DIFdel{\bibinfo{author}{Kluyver, T.}} %%%
-\emph{\DIFdel{et~al.}}
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Kluyver, T.} }\emph{\DIFdel{et~al.}}
 %DIFAUXCMD
-%DIFDELCMD < \newblock 
+%DIFDELCMD < \newblock %%%
 \DIFdel{\bibinfo{title}{{Jupyter Notebooks} -- a publishing format for
-reproducible computational workflows}}%%%
-\DIFdel{.
+  reproducible computational workflows}.
 }%DIFDELCMD < \newblock %%%
-\DIFdel{In \bibinfo{editor}{Loizides, F.}} %%%
-\DIFdel{\& \bibinfo{editor}{Schmidt, B.}}
-%DIFDELCMD <   %%%
-\DIFdel{(eds.) \emph{\bibinfo{booktitle}{Positioning and Power in Academic
-Publishing: Players, Agents and Agendas}}}%%%
-%DIFAUXCMD
-\DIFdel{, \bibinfo{pages}{87 -- 90}}
-%DIFDELCMD <   %%%
-\DIFdel{(\bibinfo{organization}{IOS Press}}%%%
-\DIFdel{, \bibinfo{year}{2016}}%%%
-\DIFdel{).
-}%DIFDELCMD < \newblock 
-\DIFdel{\urlprefix\url{http://doi.org/10.3233/978-1-61499-649-1-87}}%%%
+\DIFdel{In \bibinfo{editor}{Loizides, F.} \& \bibinfo{editor}{Schmidt, B.}
+  (eds.) }\emph{\DIFdel{\bibinfo{booktitle}{Positioning and Power in Academic
+  Publishing: Players, Agents and Agendas}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{87 -- 90}
+  (\bibinfo{organization}{IOS Press}, \bibinfo{year}{2016}).
+}%DIFDELCMD < \newblock \urlprefix\url{http://doi.org/10.3233/978-1-61499-649-1-87}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{matlab}
 %DIFDELCMD <  %%%
-\emph{\DIFdel{\bibinfo{title}{{MATLAB}}%%%
-}} %DIFAUXCMD
-\DIFdel{(\bibinfo{publisher}{The {MathWorks}, Inc.}}%%%
-\DIFdel{,
-\bibinfo{address}{Natick, MA, United States}}%%%
-\DIFdel{).
-}%DIFDELCMD < \newblock 
-\DIFdel{\\\urlprefix\url{https://www.mathworks.com/products/matlab.html}}%%%
+\emph{\DIFdel{\bibinfo{title}{{MATLAB}}}} %DIFAUXCMD
+\DIFdel{(\bibinfo{publisher}{The {MathWorks}, Inc.},
+  \bibinfo{address}{Natick, MA, United States}).
+}%DIFDELCMD < \newblock \urlprefix\url{https://www.mathworks.com/products/matlab.html}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{matplotlib-rel}
-\DIFdel{\bibinfo{author}{Hunter, J.}}
-%DIFDELCMD < \newblock 
-\DIFdel{\bibinfo{title}{{ANN: matplotlib 0.1}}} %%%
-\DIFdel{(\bibinfo{year}{2003}}%%%
-\DIFdel{).
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Hunter, J.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{title}{{ANN: matplotlib 0.1}} (\bibinfo{year}{2003}).
 }%DIFDELCMD < \newblock
-\DIFdel{\\\urlprefix\url{https://mail.python.org/pipermail/python-list/2003-April/193167.html}}%%%
+%DIFDELCMD <   \urlprefix\url{https://mail.python.org/pipermail/python-list/2003-April/193167.html}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
@@ -400,270 +369,226 @@ Publishing: Players, Agents and Agendas}}}%%%
 \newblock \urlprefix\url{https://github.com/numpy/numpy/releases/tag/v1.0}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{dubois2007guest}
-\DIFdel{\bibinfo{author}{Dubois, P.~F.}}
-%DIFDELCMD < \newblock 
-\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython: Batteries included}}}%%%
-\DIFdel{.
-}%DIFDELCMD < \newblock {%%%
-\emph{\DIFdel{\JournalTitle{Computing in Science \& Engineering}%%%
-}}%DIFAUXCMD
-%DIFDELCMD < }
-%DIFDELCMD <   %%%
-\textbf{\DIFdel{\bibinfo{volume}{9}%%%
-}}%DIFAUXCMD
-\DIFdel{, \bibinfo{pages}{7--9}} %%%
-\DIFdel{(\bibinfo{year}{2007}}%%%
-\DIFdel{).
-}%DIFDELCMD < \newblock 
-\DIFdel{\\\urlprefix\url{https://doi.org/10.1109/MCSE.2007.51}}%%%
-\DIFdel{.
-}%DIFDELCMD < 
-
-%DIFDELCMD < \bibitem{oliphant2007python}
-\DIFdel{\bibinfo{author}{Oliphant, T.~E.}}
-%DIFDELCMD < \newblock 
-\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython for scientific
-computing}}}%%%
-\DIFdel{.
-}%DIFDELCMD < \newblock {%%%
-\emph{\DIFdel{\JournalTitle{Computing in Science \& Engineering}}%%%
-}%DIFAUXCMD
-%DIFDELCMD < }
-%DIFDELCMD <   %%%
-\textbf{\DIFdel{\bibinfo{volume}{9}%%%
-}}%DIFAUXCMD
-\DIFdel{, \bibinfo{pages}{10--20}} %%%
-\DIFdel{(\bibinfo{year}{2007}}%%%
-\DIFdel{).
-}%DIFDELCMD < \newblock 
-\DIFdel{\urlprefix\url{https://doi.org/10.1109/MCSE.2007.58}}%%%
-\DIFdel{.
-}%DIFDELCMD < 
-
-%DIFDELCMD < \bibitem{perez2007ipython}
-\DIFdel{\bibinfo{author}{P{\'e}rez, F.}} %%%
-\DIFdel{\& \bibinfo{author}{Granger, B.~E.}}
-%DIFDELCMD < \newblock 
-\DIFdel{\bibinfo{journal}{\bibinfo{title}{{IP}ython: a system for interactive
-scientific computing}}}%%%
-\DIFdel{.
-}%DIFDELCMD < \newblock {%%%
-\emph{\DIFdel{\JournalTitle{Computing in Science \& Engineering}%%%
-}}%DIFAUXCMD
-%DIFDELCMD < }
-%DIFDELCMD <   %%%
-\textbf{\DIFdel{\bibinfo{volume}{9}%%%
-}} %DIFAUXCMD
-\DIFdel{(\bibinfo{year}{2007}}%%%
-\DIFdel{).
-}%DIFDELCMD < \newblock 
-\DIFdel{\urlprefix\url{https://doi.org/10.1109/MCSE.2007.53}}%%%
-\DIFdel{.
-}%DIFDELCMD < 
-
-%DIFDELCMD < \bibitem{hunter2007matplotlib}
-%DIFDELCMD < \bibinfo{author}{Hunter, J.~D.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{Matplotlib: A {2D} graphics
-%DIFDELCMD <   environment}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Dubois, P.~F.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython: Batteries included}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{7--9} (\bibinfo{year}{2007}).
+}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.51}%%%
+\DIFdel{.
+}%DIFDELCMD < 
+
+%DIFDELCMD < \bibitem{oliphant2007python}
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Oliphant, T.~E.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython for scientific
+  computing}}.
+}%DIFDELCMD < \newblock {%%%
+\emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{90--95} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+%DIFDELCMD < }
+%DIFDELCMD <   %%%
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{10--20} (\bibinfo{year}{2007}).
+}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.58}%%%
+\DIFdel{.
+}%DIFDELCMD < 
+
+%DIFDELCMD < \bibitem{perez2007ipython}
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{P{\'e}rez, F.} \& \bibinfo{author}{Granger, B.~E.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{IP}ython: a system for interactive
+  scientific computing}}.
+}%DIFDELCMD < \newblock {%%%
+\emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
+}%DIFAUXCMD
+%DIFDELCMD < }
+%DIFDELCMD <   %%%
+\textbf{\DIFdel{\bibinfo{volume}{9}}} %DIFAUXCMD
+\DIFdel{(\bibinfo{year}{2007}).
+}%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.53}%%%
+\DIFdel{.
+}%DIFDELCMD < 
+
+%DIFDELCMD < \bibitem{hunter2007matplotlib}
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Hunter, J.~D.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{Matplotlib: A {2D} graphics
+  environment}}.
+}%DIFDELCMD < \newblock {%%%
+\emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
+}%DIFAUXCMD
+%DIFDELCMD < }
+%DIFDELCMD <   %%%
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{90--95} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.55}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{myers2007python}
-%DIFDELCMD < \bibinfo{author}{Myers, C.~R.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{Gutenkunst, R.~N.} %%%
-\DIFdel{\&
-  }%DIFDELCMD < \bibinfo{author}{Sethna, J.~P.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{P}ython unleashed on systems
-%DIFDELCMD <   biology}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Myers, C.~R.}, \bibinfo{author}{Gutenkunst, R.~N.} \&
+  \bibinfo{author}{Sethna, J.~P.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython unleashed on systems
+  biology}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-} %DIFAUXCMD
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}} %DIFAUXCMD
+\DIFdel{(\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.60}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{greenfield2007reaching}
-%DIFDELCMD < \bibinfo{author}{Greenfield, P.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{Reaching for the stars with
-%DIFDELCMD <   {P}ython}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Greenfield, P.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{Reaching for the stars with
+  {P}ython}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{38--40} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{38--40} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.62}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{krauss2007python}
-%DIFDELCMD < \bibinfo{author}{Krauss, R.~W.} %%%
-\DIFdel{\& }%DIFDELCMD < \bibinfo{author}{Book, W.~J.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{A {P}ython module for modeling and
-%DIFDELCMD <   control design of flexible robots}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Krauss, R.~W.} \& \bibinfo{author}{Book, W.~J.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{A {P}ython module for modeling and
+  control design of flexible robots}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{41--45} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{41--45} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.44}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{bienstman2007python}
-%DIFDELCMD < \bibinfo{author}{Bienstman, P.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{Vanholme, L.}%%%
-\DIFdel{,
-  }%DIFDELCMD < \bibinfo{author}{Bogaerts, W.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{Dumon, P.} %%%
-\DIFdel{\&
-  }%DIFDELCMD < \bibinfo{author}{Vandersteegen, P.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{P}ython in nanophotonics
-%DIFDELCMD <   research}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Bienstman, P.}, \bibinfo{author}{Vanholme, L.},
+  \bibinfo{author}{Bogaerts, W.}, \bibinfo{author}{Dumon, P.} \&
+  \bibinfo{author}{Vandersteegen, P.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython in nanophotonics
+  research}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{46--47} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{46--47} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.59}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{mardal2007using}
-%DIFDELCMD < \bibinfo{author}{Mardal, K.-A.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{Skavhaug, O.}%%%
-\DIFdel{,
-  }%DIFDELCMD < \bibinfo{author}{Lines, G.~T.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{Staff, G.~A.} %%%
-\DIFdel{\&
-  }%DIFDELCMD < \bibinfo{author}{{\O}deg{\aa}rd, {\AA}.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{Using {P}ython to solve partial
-%DIFDELCMD <   differential equations}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Mardal, K.-A.}, \bibinfo{author}{Skavhaug, O.},
+  \bibinfo{author}{Lines, G.~T.}, \bibinfo{author}{Staff, G.~A.} \&
+  \bibinfo{author}{{\O}deg{\aa}rd, {\AA}.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{Using {P}ython to solve partial
+  differential equations}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{48--51} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{48--51} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.64}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{millman2007analysis}
-%DIFDELCMD < \bibinfo{author}{Millman, K.~J.} %%%
-\DIFdel{\& }%DIFDELCMD < \bibinfo{author}{Brett, M.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{Analysis of functional magnetic
-%DIFDELCMD <   resonance imaging in {P}ython}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Millman, K.~J.} \& \bibinfo{author}{Brett, M.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{Analysis of functional magnetic
+  resonance imaging in {P}ython}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{52--55} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{52--55} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.46}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{shi2007python}
-%DIFDELCMD < \bibinfo{author}{Shi, X.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{P}ython for internet {GIS}
-%DIFDELCMD <   applications}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Shi, X.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython for internet {GIS}
+  applications}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{56--59} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{56--59} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.57}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{backer2007computational}
-%DIFDELCMD < \bibinfo{author}{B{\"a}cker, A.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{Computational physics education
-%DIFDELCMD <   with {P}ython}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{B{\"a}cker, A.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{Computational physics education
+  with {P}ython}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{30--33} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{30--33} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.48}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{myers2007pythona}
-%DIFDELCMD < \bibinfo{author}{Myers, C.~R.} %%%
-\DIFdel{\& }%DIFDELCMD < \bibinfo{author}{Sethna, J.~P.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{P}ython for education:
-%DIFDELCMD <   Computational methods for nonlinear systems}}%%%
-\DIFdel{.
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{Myers, C.~R.} \& \bibinfo{author}{Sethna, J.~P.}
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{journal}{\bibinfo{title}{{P}ython for education:
+  Computational methods for nonlinear systems}}.
 }%DIFDELCMD < \newblock {%%%
 \emph{%DIFDELCMD < \JournalTitle{Computing in Science \& Engineering}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }
 %DIFDELCMD <   %%%
-\textbf{%DIFDELCMD < \bibinfo{volume}{9}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{75--79} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2007}%%%
-\DIFdel{).
+\textbf{\DIFdel{\bibinfo{volume}{9}}}%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{75--79} (\bibinfo{year}{2007}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.56}%%%
 \DIFdel{.
 }%DIFDELCMD < 
@@ -736,10 +661,10 @@ scientific computing}}}%%%
 \newblock \urlprefix\url{https://archive.siam.org/news/news.php?id=1595}.
 
 \DIFaddbegin \bibitem{dubois2007guest}
-\bibinfo{author}{Dubois, P.~F.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{P}ython: Batteries included}}\DIFadd{.
+\DIFadd{\bibinfo{author}{Dubois, P.~F.}
+}\newblock \DIFadd{\bibinfo{journal}{\bibinfo{title}{{P}ython: Batteries included}}.
 }\newblock {\emph{\JournalTitle{Computing in Science \& Engineering}}}
-  \textbf{\bibinfo{volume}{9}}\DIFadd{, }\bibinfo{pages}{7--9} \DIFadd{(}\bibinfo{year}{2007}\DIFadd{).
+  \textbf{\DIFadd{\bibinfo{volume}{9}}}\DIFadd{, \bibinfo{pages}{7--9} (\bibinfo{year}{2007}).
 }\newblock \urlprefix\url{https://doi.org/10.1109/MCSE.2007.51}\DIFadd{.
 }
 
@@ -785,12 +710,11 @@ scientific computing}}}%%%
 \newblock \urlprefix\url{http://doi.org/10.3389/fninf.2015.00011}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{numfocus}
-%DIFDELCMD < \bibinfo{author}{{NumFocus Team}}%%%
-\DIFdel{.
-}%DIFDELCMD < \newblock \bibinfo{title}{{NumFocus}: Open code = better science}
-%DIFDELCMD <   %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2019}%%%
-\DIFdel{).
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{{NumFocus Team}}.
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{title}{{NumFocus}: Open code = better science}
+  (\bibinfo{year}{2019}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://numfocus.org}%%%
 \DIFdel{.
 }%DIFDELCMD < 
@@ -836,10 +760,9 @@ scientific computing}}}%%%
   \bibinfo{author}{{Lang}, D.} \& \bibinfo{author}{{Goodman}, J.}
 \newblock \bibinfo{journal}{\bibinfo{title}{{emcee: The {MCMC} Hammer}}}.
 \newblock {\emph{\JournalTitle{Publications of the Astronomical Society of the
-  Pacific}}} \textbf{\bibinfo{volume}{125}}, \DIFdelbegin %DIFDELCMD < \bibinfo{pages}{306}
-%DIFDELCMD <   %%%
-\DIFdelend \DIFaddbegin \bibinfo{pages}{306--312}
-  \DIFaddend (\bibinfo{year}{2013}).
+  Pacific}}} \textbf{\bibinfo{volume}{125}}, \DIFdelbegin \DIFdel{\bibinfo{pages}{306}
+  }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{pages}{306--312}
+  }\DIFaddend (\bibinfo{year}{2013}).
 \newblock \urlprefix\url{https://doi.org/10.1086/670067}.
 \newblock \eprint{1202.3665}.
 
@@ -870,14 +793,14 @@ scientific computing}}}%%%
   \urlprefix\url{http://conference.scipy.org/proceedings/scipy2008/paper_2/}.
 
 \DIFaddbegin \bibitem{SciPy_tutorials}
-\bibinfo{author}{{The SciPy Project Community}}\DIFadd{.
-}\newblock \bibinfo{title}{{SciPy} tutorial} \DIFadd{(}\bibinfo{year}{2018}\DIFadd{).
+\DIFadd{\bibinfo{author}{{The SciPy Project Community}}.
+}\newblock \DIFadd{\bibinfo{title}{{SciPy} tutorial} (\bibinfo{year}{2018}).
 }\newblock \urlprefix\url{https://docs.scipy.org/doc/scipy/reference/tutorial/}\DIFadd{.
 }
 
 \bibitem{SciPy_API}
-\bibinfo{author}{{The SciPy Project Community}}\DIFadd{.
-}\newblock \bibinfo{title}{{SciPy API} reference} \DIFadd{(}\bibinfo{year}{2018}\DIFadd{).
+\DIFadd{\bibinfo{author}{{The SciPy Project Community}}.
+}\newblock \DIFadd{\bibinfo{title}{{SciPy API} reference} (\bibinfo{year}{2018}).
 }\newblock
   \urlprefix\url{https://docs.scipy.org/doc/scipy/reference/index.html#api-reference}\DIFadd{.
 }
@@ -899,8 +822,8 @@ scientific computing}}}%%%
   York, NY, USA}, \bibinfo{year}{1993}).
 
 \DIFaddbegin \bibitem{matlab}
- \emph{\bibinfo{title}{{MATLAB}}} \DIFadd{(}\bibinfo{publisher}{The {MathWorks}, Inc.}\DIFadd{,
-  }\bibinfo{address}{Natick, MA, United States}\DIFadd{).
+ \emph{\DIFadd{\bibinfo{title}{{MATLAB}}}} \DIFadd{(\bibinfo{publisher}{The {MathWorks}, Inc.},
+  \bibinfo{address}{Natick, MA, United States}).
 }\newblock \urlprefix\url{https://www.mathworks.com/products/matlab.html}\DIFadd{.
 }
 
@@ -953,31 +876,31 @@ scientific computing}}}%%%
 \newblock \urlprefix\url{https://doi.org/10.1063/1.4823319}.
 
 \DIFaddbegin \bibitem{piessens1983quadpack}
-\bibinfo{author}{Piessens, R.}\DIFadd{, }\bibinfo{author}{de~Doncker-Kapenga, E.}\DIFadd{,
-  }\bibinfo{author}{{\"U}berhuber, C.~W.} \DIFadd{\& }\bibinfo{author}{Kahaner, D.~K.}
-\newblock \emph{\bibinfo{title}{{QUADPACK}: a subroutine package for automatic
-  integration}} \DIFadd{(}\bibinfo{publisher}{Springer-Verlag}\DIFadd{, }\bibinfo{address}{New
-  York, NY, USA}\DIFadd{, }\bibinfo{year}{1983}\DIFadd{).
+\DIFadd{\bibinfo{author}{Piessens, R.}, \bibinfo{author}{de~Doncker-Kapenga, E.},
+  \bibinfo{author}{{\"U}berhuber, C.~W.} \& \bibinfo{author}{Kahaner, D.~K.}
+}\newblock \emph{\DIFadd{\bibinfo{title}{{QUADPACK}: a subroutine package for automatic
+  integration}}} \DIFadd{(\bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{New
+  York, NY, USA}, \bibinfo{year}{1983}).
 }\newblock \urlprefix\url{https://doi.org/10.1007/978-3-642-61786-7}\DIFadd{.
 }
 
 \bibitem{hindmarsh1983odepack}
-\bibinfo{author}{Hindmarsh, A.~C.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{ODEPACK}, a systematized
-  collection of {ODE} solvers}}\DIFadd{.
-}\newblock {\emph{\JournalTitle{Scientific Computing}}} \bibinfo{pages}{55--64}
-  \DIFadd{(}\bibinfo{year}{1983}\DIFadd{).
+\DIFadd{\bibinfo{author}{Hindmarsh, A.~C.}
+}\newblock \DIFadd{\bibinfo{journal}{\bibinfo{title}{{ODEPACK}, a systematized
+  collection of {ODE} solvers}}.
+}\newblock {\emph{\JournalTitle{Scientific Computing}}} \DIFadd{\bibinfo{pages}{55--64}
+  (\bibinfo{year}{1983}).
 }\newblock
   \urlprefix\url{https://www3.nd.edu/~powers/ame.60636/hindmarsh1983.pdf}\DIFadd{.
 }
 
 \bibitem{osti_6997568}
-\bibinfo{author}{Mor{\'e}, J.~J.}\DIFadd{, }\bibinfo{author}{Garbow, B.~S.} \DIFadd{\&
-  }\bibinfo{author}{Hillstrom, K.~E.}
-\newblock \bibinfo{title}{User guide for {MINPACK-1}}\DIFadd{.
-}\newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{ANL-80-74}\DIFadd{,
-  }\bibinfo{institution}{Argonne National Laboratory}\DIFadd{,
-  }\bibinfo{address}{Argonne, IL, USA} \DIFadd{(}\bibinfo{year}{1980}\DIFadd{).
+\DIFadd{\bibinfo{author}{Mor{\'e}, J.~J.}, \bibinfo{author}{Garbow, B.~S.} \&
+  \bibinfo{author}{Hillstrom, K.~E.}
+}\newblock \DIFadd{\bibinfo{title}{User guide for {MINPACK-1}}.
+}\newblock \DIFadd{\bibinfo{type}{Tech. Rep.} \bibinfo{number}{ANL-80-74},
+  \bibinfo{institution}{Argonne National Laboratory},
+  \bibinfo{address}{Argonne, IL, USA} (\bibinfo{year}{1980}).
 }\newblock
   \urlprefix\url{http://cds.cern.ch/record/126569/files/CM-P00068642.pdf}\DIFadd{.
 }
@@ -987,17 +910,15 @@ scientific computing}}}%%%
 \newblock \bibinfo{journal}{\bibinfo{title}{{FFT} algorithms for vector
   computers}}.
 \newblock {\emph{\JournalTitle{Parallel Computing}}}
-  \textbf{\bibinfo{volume}{1}}, \DIFdelbegin %DIFDELCMD < \bibinfo{pages}{45 -- 63}
-%DIFDELCMD <   %%%
-\DIFdelend \DIFaddbegin \bibinfo{pages}{45--63} \DIFaddend (\bibinfo{year}{1984}).
+  \textbf{\bibinfo{volume}{1}}, \DIFdelbegin \DIFdel{\bibinfo{pages}{45 -- 63}
+  }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{pages}{45--63} }\DIFaddend (\bibinfo{year}{1984}).
 \newblock \urlprefix\url{https://doi.org/10.1016/S0167-8191(84)90413-7}.
 
 \bibitem{SWARZTRAUBER198251}
 \bibinfo{author}{Swarztrauber, P.~N.}
 \newblock \bibinfo{title}{Vectorizing the {FFT}s}.
 \newblock In \emph{\bibinfo{booktitle}{Parallel Computations}},
-  \DIFdelbegin %DIFDELCMD < \bibinfo{pages}{51 -- 83} %%%
-\DIFdelend \DIFaddbegin \bibinfo{pages}{51--83} \DIFaddend (\bibinfo{publisher}{Academic Press},
+  \DIFdelbegin \DIFdel{\bibinfo{pages}{51 -- 83} }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{pages}{51--83} }\DIFaddend (\bibinfo{publisher}{Academic Press},
   \bibinfo{year}{1982}).
 \newblock \urlprefix\url{https://doi.org/10.1016/B978-0-12-592101-5.50007-5}.
 
@@ -1027,8 +948,8 @@ scientific computing}}}%%%
   \urlprefix\url{https://people.sc.fsu.edu/~jburkardt/f_src/cdflib/cdflib.html}.
 
 \bibitem{Kernighan:1988:CPL:576122}
-\bibinfo{author}{Kernighan, B.~W.} \DIFaddbegin \DIFadd{\& }\bibinfo{author}{Ritchie, D.~M.}
-\DIFaddend \newblock \emph{\bibinfo{title}{The C Programming Language}}
+\bibinfo{author}{Kernighan, B.~W.} \DIFaddbegin \DIFadd{\& \bibinfo{author}{Ritchie, D.~M.}
+}\DIFaddend \newblock \emph{\bibinfo{title}{The C Programming Language}}
   (\bibinfo{publisher}{Prentice Hall Professional Technical Reference},
   \bibinfo{year}{1988}), \bibinfo{edition}{2nd} edn.
 
@@ -1053,8 +974,7 @@ scientific computing}}}%%%
 \newblock \urlprefix\url{https://doi.org/10.1145/1089014.1089017}.
 
 \bibitem{superlu_ug99}
-\DIFdelbegin %DIFDELCMD < \bibinfo{author}{Li, X.} %%%
-\DIFdelend \DIFaddbegin \bibinfo{author}{Li, X.~S.} \DIFaddend \emph{et~al.}
+\DIFdelbegin \DIFdel{\bibinfo{author}{Li, X.} }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{author}{Li, X.~S.} }\DIFaddend \emph{et~al.}
 \newblock \bibinfo{title}{{SuperLU} users' guide}.
 \newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{LBNL-44289},
   \bibinfo{institution}{Lawrence Berkeley National Laboratory}
@@ -1341,18 +1261,17 @@ scientific computing}}}%%%
 
 \bibitem{kraft_software_1988}
 \bibinfo{author}{Kraft, D.}
-\newblock \DIFdelbegin %DIFDELCMD < \bibinfo{journal}{\bibinfo{title}{A software package for sequential
-%DIFDELCMD <   quadratic programming}}%%%
-\DIFdelend \DIFaddbegin \bibinfo{title}{A software package for sequential quadratic
-  programming}\DIFaddend .
+\newblock \DIFdelbegin \DIFdel{\bibinfo{journal}{\bibinfo{title}{A software package for sequential
+  quadratic programming}}}\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{title}{A software package for sequential quadratic
+  programming}}\DIFaddend .
 \newblock \DIFdelbegin %DIFDELCMD < {%%%
 \emph{%DIFDELCMD < \JournalTitle{Forschungsbericht- Deutsche Forschungs- und
 %DIFDELCMD <   Versuchsanstalt f{\"u}r Luft- und Raumfahrt}%%%
 }%DIFAUXCMD
 %DIFDELCMD < }  %%%
-\DIFdelend \DIFaddbegin \bibinfo{type}{Forschungsbericht} \bibinfo{number}{DFVLR-FR 88-28}\DIFadd{,
-  }\bibinfo{institution}{Deutsche Forschungs- und Versuchsanstalt f{\"u}r Luft-
-  und Raumfahrt} \DIFaddend (\bibinfo{year}{1988}).
+\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{type}{Forschungsbericht} \bibinfo{number}{DFVLR-FR 88-28},
+  \bibinfo{institution}{Deutsche Forschungs- und Versuchsanstalt f{\"u}r Luft-
+  und Raumfahrt} }\DIFaddend (\bibinfo{year}{1988}).
 
 \bibitem{nash_newton-type_1984}
 \bibinfo{author}{Nash, S.~G.}
@@ -1459,17 +1378,17 @@ scientific computing}}}%%%
 \newblock \urlprefix\url{https://doi.org/10.1145/321607.321609}.
 
 \DIFaddbegin \bibitem{TDD-Beck}
-\bibinfo{author}{Beck, K.}
-\newblock \emph{\bibinfo{title}{Test-driven Development: By Example}}
-  \DIFadd{(}\bibinfo{publisher}{{Addison-Wesley}}\DIFadd{, }\bibinfo{year}{2003}\DIFadd{).
+\DIFadd{\bibinfo{author}{Beck, K.}
+}\newblock \emph{\DIFadd{\bibinfo{title}{Test-driven Development: By Example}}}
+  \DIFadd{(\bibinfo{publisher}{{Addison-Wesley}}, \bibinfo{year}{2003}).
 }
 
 \bibitem{silver2017collaborative}
-\bibinfo{author}{Silver, A.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Collaborative software development
-  made easy}}\DIFadd{.
-}\newblock {\emph{\JournalTitle{Nature News}}} \textbf{\bibinfo{volume}{550}}\DIFadd{,
-  }\bibinfo{pages}{143} \DIFadd{(}\bibinfo{year}{2017}\DIFadd{).
+\DIFadd{\bibinfo{author}{Silver, A.}
+}\newblock \DIFadd{\bibinfo{journal}{\bibinfo{title}{Collaborative software development
+  made easy}}.
+}\newblock {\emph{\JournalTitle{Nature News}}} \textbf{\DIFadd{\bibinfo{volume}{550}}}\DIFadd{,
+  \bibinfo{pages}{143} (\bibinfo{year}{2017}).
 }
 
 \DIFaddend \bibitem{pytest}
@@ -1520,9 +1439,9 @@ scientific computing}}}%%%
   \urlprefix\url{http://brochures.sisalp.fr/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure.pdf}.
 
 \DIFaddbegin \bibitem{SciPyValue}
-\bibinfo{author}{{Black Duck Software, Inc.}}
-\newblock \bibinfo{title}{The {SciPy} open source project on {O}pen {H}ub :
-  Estimated cost page} \DIFadd{(}\bibinfo{year}{2019}\DIFadd{).
+\DIFadd{\bibinfo{author}{{Black Duck Software, Inc.}}
+}\newblock \DIFadd{\bibinfo{title}{The {SciPy} open source project on {O}pen {H}ub :
+  Estimated cost page} (\bibinfo{year}{2019}).
 }\newblock \urlprefix\url{https://www.openhub.net/p/scipy/estimated_cost}\DIFadd{.
 }
 
@@ -1584,24 +1503,21 @@ scientific computing}}}%%%
 
 \bibitem{SciPy_roadmap_1}
 \bibinfo{author}{{The SciPy Project Community}}.
-\newblock \DIFdelbegin %DIFDELCMD < \bibinfo{title}{Scipy {R}oadmap} %%%
-\DIFdelend \DIFaddbegin \bibinfo{title}{{SciPy} roadmap} \DIFaddend (\bibinfo{year}{2017}).
+\newblock \DIFdelbegin \DIFdel{\bibinfo{title}{Scipy {R}oadmap} }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{title}{{SciPy} roadmap} }\DIFaddend (\bibinfo{year}{2017}).
 \newblock
   \urlprefix\url{https://docs.scipy.org/doc/scipy-1.0.0/reference/roadmap.html}.
 
 \bibitem{SciPy_roadmap_dev}
 \bibinfo{author}{{The SciPy Project Community}}.
-\newblock \DIFdelbegin %DIFDELCMD < \bibinfo{title}{Scipy {R}oadmap} %%%
-\DIFdelend \DIFaddbegin \bibinfo{title}{{SciPy} roadmap} \DIFaddend (\bibinfo{year}{2019}).
+\newblock \DIFdelbegin \DIFdel{\bibinfo{title}{Scipy {R}oadmap} }\DIFdelend \DIFaddbegin \DIFadd{\bibinfo{title}{{SciPy} roadmap} }\DIFaddend (\bibinfo{year}{2019}).
 \newblock \urlprefix\url{https://scipy.github.io/devdocs/roadmap.html}\DIFdelbegin \DIFdel{.
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{SciPy_tutorials}
-%DIFDELCMD < \bibinfo{author}{{The SciPy Project Community}}%%%
-\DIFdel{.
-}%DIFDELCMD < \newblock \bibinfo{title}{Scipy {T}utorial} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2018}%%%
-\DIFdel{).
+%DIFDELCMD < %%%
+\DIFdel{\bibinfo{author}{{The SciPy Project Community}}.
+}%DIFDELCMD < \newblock %%%
+\DIFdel{\bibinfo{title}{Scipy {T}utorial} (\bibinfo{year}{2018}).
 }%DIFDELCMD < \newblock \urlprefix\url{https://docs.scipy.org/doc/scipy/reference/tutorial/}%%%
 \DIFdelend .
 
