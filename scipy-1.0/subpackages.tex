@@ -1,0 +1,118 @@
+The SciPy library is organized as a collection of subpackages.  The 16
+subpackages include mathematical building blocks (e.g. linear algebra, Fourier
+transforms, special functions), data structures (e.g. sparse matrices, $k$-D trees),
+algorithms (e.g. numerical optimization and integration, clustering, interpolation,
+graph algorithms, computational geometry), and higher-level data analysis
+functionality (e.g. signal and image processing, statistical methods).
+
+Here we summarize the scope and capabilities of each subpackage.
+Additional information is available in the SciPy Tutorial\cite{SciPy_tutorials} and
+API Reference\cite{SciPy_API}.
+
+\begin{description}[leftmargin=!, labelwidth=\widthof{\bfseries \texttt{interpolate}}]
+\itemsep0em
+\item[\texttt{cluster}]
+    The \texttt{cluster} subpackage contains \texttt{cluster.vq}, which provides vector quantization and $k$-means algorithms, and \texttt{cluster.hierarchy}, which provides functions for hierarchical and
+    agglomerative clustering.
+\item[\texttt{constants}]
+    Physical and mathematical constants, including the CODATA recommended
+    values of the fundamental physical constants\cite{CODATA2014}.
+\item[\texttt{fftpack}]
+    Fast Fourier Transform routines.  In addition to the FFT itself, the subpackage
+    includes functions for the discrete sine and cosine transforms and for
+    pseudo-differential operators.
+\item[\texttt{integrate}]
+    The \texttt{integrate} subpackage provides tools for the numerical
+    computation of single and multiple definite integrals and for the
+    solution of ordinary differential equations, including initial value
+    problems and two-point boundary value problems.
+\item[\texttt{interpolate}]
+    The \texttt{interpolate} subpackage contains spline functions and
+    classes, one-dimensional and multi-dimensional (univariate and
+    multivariate) interpolation classes, Lagrange and Taylor polynomial
+    interpolators, and wrappers for FITPACK\cite{Dierckx:1993:CSF:151103} and DFITPACK functions.
+\item[\texttt{io}]
+    A collection of functions and classes for reading and writing MATLAB\cite{matlab}, IDL,
+    Matrix Market\cite{boisvert1997matrix}, Fortran, NetCDF\cite{rew1990netcdf},
+		Harwell-Boeing\cite{harwellboeing}, WAV and ARFF data files.
+\item[\texttt{linalg}]
+    Linear algebra functions, including
+    elementary functions of a matrix, such as the trace, determinant, norm and
+    condition number;
+    basic solver for $Ax = b$;
+    specialized solvers for Toeplitz matrices, circulant matrices, triangular
+    matrices and other structured matrices; least squares solver and
+    pseudo-inverse calculations; eigenvalue and eigenvector calculations
+    (basic and generalized); matrix decompositions, including Cholesky, Schur,
+    Hessenberg, $LU$, $LDL^{\intercal}$, $QR$, $QZ$, singular value, and polar;
+    and functions to create specialized matrices, such as diagonal, Toeplitz,
+    Hankel, companion, Hilbert, and more.
+\item[\texttt{ndimage}]
+    This subpackage contains various functions for multi-dimensional image
+    processing, including convolution and assorted linear and nonlinear
+    filters (Gaussian filter, median filter, Sobel filter, etc.);
+    interpolation; region labeling and processing; and mathematical morphology
+    functions.
+\item[\texttt{misc}]
+    A collection of functions that did not fit into the other subpackages.
+    While this subpackage still exists in SciPy 1.0, effort is underway
+    to deprecate or relocate the contents of this subpackage and remove it.
+\item[\texttt{odr}]
+    Orthogonal distance regression, including Python wrappers for the Fortran
+    library ODRPACK\cite{ODRPACK_Boggs}.
+\item[\texttt{optimize}]
+		This subpackage includes simplex and interior-point linear programming
+		solvers, implementations of many nonlinear minimization algorithms,
+		a routine for least-squares curve fitting, and 
+		a collection of general nonlinear solvers for root-finding.
+\item[\texttt{signal}]
+    The \texttt{signal} subpackage focuses on signal processing and
+    basic linear systems theory.  Functionality includes
+    convolution and correlation, splines, filtering and filter design,
+    continuous and discrete time linear systems, waveform generation,
+    window functions, wavelet computations, peak finding, and spectral
+    analysis.  
+\item[\texttt{sparse}]
+    This subpackage includes implementations of several representations of
+    sparse matrices.\newline % \texttt{scipy.sparse.linalg} extends past margin
+		\texttt{scipy.sparse.linalg} provides a collection of linear algebra routines that work with
+		sparse matrices, including linear equation solvers, eigenvalue decomposition, singular value
+		decomposition and LU factorization.
+    \texttt{scipy.sparse.csgraph} provides a collections of graph algorithms
+    for which the graph is represented using a sparse matrix.  Algorithms
+    include connected components, shortest path, minimum spanning tree
+    and more.
+\item[\texttt{spatial}]
+    This subpackage provides spatial data structures and algorithms,
+    including the $k$-d tree, Delaunay triangulation, convex hulls and Voronoi
+    diagrams. \texttt{scipy.spatial.distance} provides
+    a large collection of distance functions, along with functions for
+    computing the distance between all pairs of vectors in a given collection
+    of points or between all pairs from two collections of points.
+\item[\texttt{special}]
+    The name comes from the class of functions traditionally known as ``special
+    functions'', but over time, the subpackage has grown to include functions
+    beyond the classical special functions.  A more appropriate characterization
+    of this subpackage is simply ``useful functions''.
+    It includes a large collection of the classical special functions
+    such as Airy, Bessel, etc.; families of orthogonal polynomials;
+    the Gamma function, and functions related to it;
+    functions for computing the PDF, CDF and quantile function for several
+    probability distributions;
+    information theory functions;
+    combinatorial functions \texttt{comb} and \texttt{factorial};
+    and more.
+\item[\texttt{stats}]
+    The \texttt{stats} subpackage provides a large collection of continuous
+    and discrete probability distributions, each with methods to compute
+    the PDF or PMF, CDF, moments and other statistics, generation of random
+    variates, and more;
+    statistical tests, including tests on equality of means/medians/variance
+    (such as the t-test) and tests whether a sample is drawn from a
+    certain distribution (such as the Kolmogorov-Smirnov test);
+    measures of correlation, including Pearson's $r$, Kendall's $\tau$, and
+    Spearman's $\rho$ coefficients;
+    descriptive statistics including trimmed values;
+    kernel density estimation;
+    and transformations of data such as the Box-Cox power transformation.
+\end{description}

@@ -1,0 +1,165 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: paper.aux
+The style file: naturemag-doi.bst
+Database file #1: references.bib
+Warning--entry type for "SciPyValue" isn't style-file defined
+--line 334 of file references.bib
+Warning--entry type for "SciPyProjectGovernance" isn't style-file defined
+--line 720 of file references.bib
+Warning--entry type for "FITPACK" isn't style-file defined
+--line 861 of file references.bib
+Warning--entry type for "CDFLIB_site" isn't style-file defined
+--line 946 of file references.bib
+Warning--entry type for "cephes_netlib" isn't style-file defined
+--line 1017 of file references.bib
+Warning--entry type for "SciPy_roadmap_1" isn't style-file defined
+--line 1117 of file references.bib
+Warning--entry type for "SciPy_roadmap_dev" isn't style-file defined
+--line 1125 of file references.bib
+Warning--entry type for "SciPy_tutorials" isn't style-file defined
+--line 1133 of file references.bib
+Warning--entry type for "SciPy_API" isn't style-file defined
+--line 1141 of file references.bib
+Warning--entry type for "pypinfo" isn't style-file defined
+--line 1181 of file references.bib
+Warning--entry type for "intel-python" isn't style-file defined
+--line 1205 of file references.bib
+Warning--entry type for "linguistref" isn't style-file defined
+--line 1277 of file references.bib
+Warning--entry type for "asvref" isn't style-file defined
+--line 1296 of file references.bib
+Warning--entry type for "pystan-ref" isn't style-file defined
+--line 1356 of file references.bib
+Warning--entry type for "scikits-general" isn't style-file defined
+--line 1364 of file references.bib
+Warning--entry type for "Hugunin-first" isn't style-file defined
+--line 1403 of file references.bib
+Warning--entry type for "Hugunin-whitepaper" isn't style-file defined
+--line 1411 of file references.bib
+Warning--entry type for "Numeric-manual" isn't style-file defined
+--line 1419 of file references.bib
+Warning--entry type for "STScI-slither" isn't style-file defined
+--line 1427 of file references.bib
+Warning--entry type for "Travis-Keynote-2010" isn't style-file defined
+--line 1435 of file references.bib
+Warning--entry type for "Travis-some-modules" isn't style-file defined
+--line 1443 of file references.bib
+Warning--entry type for "Travis-enhance" isn't style-file defined
+--line 1451 of file references.bib
+Warning--entry type for "Strangman-modules" isn't style-file defined
+--line 1459 of file references.bib
+Warning--entry type for "archived-scipyorg" isn't style-file defined
+--line 1467 of file references.bib
+Warning--entry type for "new-scipy-list" isn't style-file defined
+--line 1475 of file references.bib
+Warning--entry type for "first-scipy-rel" isn't style-file defined
+--line 1483 of file references.bib
+Warning--entry type for "first-scipy-docs" isn't style-file defined
+--line 1491 of file references.bib
+Warning--entry type for "first-scipy-workshop" isn't style-file defined
+--line 1499 of file references.bib
+Warning--entry type for "mayavi-intro" isn't style-file defined
+--line 1507 of file references.bib
+Warning--entry type for "matplotlib-rel" isn't style-file defined
+--line 1515 of file references.bib
+Warning--entry type for "python-FIN" isn't style-file defined
+--line 1523 of file references.bib
+Warning--entry type for "numfocus" isn't style-file defined
+--line 1531 of file references.bib
+Warning--entry type for "cpython-refman" isn't style-file defined
+--line 1550 of file references.bib
+Warning--entry type for "cpython-source" isn't style-file defined
+--line 1558 of file references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--entry type for "scipy-ecosystem" isn't style-file defined
+--line 1658 of file references.bib
+Warning--entry type for "social-python" isn't style-file defined
+--line 1666 of file references.bib
+Warning--entry type for "numpy-1.0-tag" isn't style-file defined
+--line 1682 of file references.bib
+Warning--entry type for "octoverse-scipy" isn't style-file defined
+--line 1690 of file references.bib
+Warning--entry type for "scipy-dev-guide" isn't style-file defined
+--line 1698 of file references.bib
+Warning--entry type for "knn-jake" isn't style-file defined
+--line 1706 of file references.bib
+Warning--entry type for "gh-4374" isn't style-file defined
+--line 1714 of file references.bib
+Warning--entry type for "kdtree-search-algo" isn't style-file defined
+--line 1722 of file references.bib
+Warning--entry type for "ckdtree-weights" isn't style-file defined
+--line 1729 of file references.bib
+Warning--entry type for "scipy-cov" isn't style-file defined
+--line 1737 of file references.bib
+Warning--entry type for "scipy-gh2885" isn't style-file defined
+--line 1745 of file references.bib
+Warning--entry type for "scipy-gh3174" isn't style-file defined
+--line 1753 of file references.bib
+Warning--entry type for "scipy-gh5653" isn't style-file defined
+--line 1761 of file references.bib
+Warning--entry type for "multipack" isn't style-file defined
+--line 1785 of file references.bib
+Warning--entry type for "condainfo" isn't style-file defined
+--line 1808 of file references.bib
+Warning--entry type for "googlescholar" isn't style-file defined
+--line 1816 of file references.bib
+Warning--entry type for "sphinx" isn't style-file defined
+--line 1854 of file references.bib
+Warning--entry type for "pydocweb" isn't style-file defined
+--line 1870 of file references.bib
+Warning--entry type for "dependents" isn't style-file defined
+--line 1878 of file references.bib
+Warning--entry type for "pytest-cov" isn't style-file defined
+--line 1886 of file references.bib
+Warning--entry type for "pytest" isn't style-file defined
+--line 1893 of file references.bib
+Warning--entry type for "gcov" isn't style-file defined
+--line 1900 of file references.bib
+Warning--empty year in mathworks-globe-97
+Warning--empty year in esri-revenue
+Warning--empty year in bloom-wolfram
+Warning--empty author and editor in matlab
+Warning--empty year in matlab
+You've used 164 entries,
+            2382 wiz_defined-function locations,
+            1927 strings with 74817 characters,
+and the built_in function-call counts, 56743 in all, are:
+= -- 4029
+> -- 1299
+< -- 3
++ -- 642
+- -- 324
+* -- 6194
+:= -- 6220
+add.period$ -- 569
+call.type$ -- 164
+change.case$ -- 190
+chr.to.int$ -- 0
+cite$ -- 169
+duplicate$ -- 5024
+empty$ -- 5819
+format.name$ -- 409
+if$ -- 11872
+int.to.chr$ -- 0
+int.to.str$ -- 164
+missing$ -- 1123
+newline$ -- 906
+num.names$ -- 179
+pop$ -- 1473
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1256
+stack$ -- 0
+substring$ -- 1757
+swap$ -- 4565
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 330
+width$ -- 167
+write$ -- 1887
+(There were 61 warnings)

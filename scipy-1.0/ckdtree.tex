@@ -1,0 +1,34 @@
+The \texttt{scipy.spatial.ckdtree} module, which implements a space-partitioning data structure that
+organizes points in $k$-dimensional space, was rewritten in C++ with templated classes.
+Support was added for periodic boundary conditions, which are often used
+in simulations of physical processes.
+
+In 2013, the time complexity of the $k$-nearest neighbor search from
+\texttt{cKDTree.query} was approximately loglinear \cite{knn-jake},
+consistent with its formal description \cite{kdtree-search-algo}.
+Since then, we have enhanced \texttt{cKDTree.query} by reimplementing it in
+C++, removing memory leaks, and allowing release of the global interpreter lock (GIL) so that
+multiple threads may be used\cite{gh-4374}. This generally improved
+performance on any given problem (Figure~\ref{fig:asvbench})
+while preserving the asymptotic complexity.
+%(Figure~\ref{fig:knn-complexity}).
+
+In 2015, SciPy added the \texttt{sparse\_distance\_matrix} routine for generating
+approximate sparse distance matrices between \texttt{KDTree} objects by ignoring
+all distances that exceed a user-provided value. This routine is not
+limited to the conventional L2 (Euclidean) norm but supports any Minkowski
+$p$-norm between 1 and infinity. By default, the returned data structure is a
+Dictionary Of Keys (DOK) based sparse matrix, which is very efficient for matrix
+construction. This hashing approach to sparse matrix assembly can be 7 times
+faster than constructing with CSR format
+\cite{10.1007/978-3-540-75755-9_107}, and the C++ level sparse matrix construction
+releases the Python GIL for increased performance. Once the matrix is constructed,
+distance value retrieval has an amortized constant time complexity
+\cite{Cormen:2001:IA:580470}, and the DOK structure can be efficiently converted
+to a CSR, CSC, or COO matrix to allow for
+speedy arithmetic operations.
+
+In 2015 the \texttt{cKDTree} dual tree counting algorithm\cite{Moore2000ar}
+was enhanced to support weights\cite{ckdtree-weights}, which are
+essential in many scientific applications, e.g. computing correlation
+functions of galaxies\cite{0004-637X-750-1-38}.
