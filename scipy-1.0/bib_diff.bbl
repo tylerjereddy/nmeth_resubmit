@@ -123,9 +123,8 @@
   \urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.211.6702\&rep=rep1\&type=pdf}.
 
 \bibitem{cpython-source}
-\DIFdelbegin %DIFDELCMD < \bibinfo{author}{Developers, C.}
-%DIFDELCMD < %%%
-\DIFdelend \DIFaddbegin \bibinfo{author}{{CPython Developers}}\DIFadd{.
+\DIFdel{Developers, C.}
+\bibinfo{author}{{\DIFadd{CPython Developers}}}\DIFadd{.
 }\DIFaddend \newblock \bibinfo{title}{The {P}ython programming language}
   (\bibinfo{year}{2019}).
 \newblock \urlprefix\url{https://github.com/python/cpython}.
