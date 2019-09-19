@@ -374,12 +374,13 @@ Publishing: Players, Agents and Agendas}}}%%%
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{matplotlib-rel}
-%DIFDELCMD < \bibinfo{author}{Hunter, J.}
-%DIFDELCMD < \newblock \bibinfo{title}{{ANN: matplotlib 0.1}} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2003}%%%
+\DIFdel{\bibinfo{author}{Hunter, J.}}
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{title}{{ANN: matplotlib 0.1}}} %%%
+\DIFdel{(\bibinfo{year}{2003}}%%%
 \DIFdel{).
 }%DIFDELCMD < \newblock
-%DIFDELCMD <   \urlprefix\url{https://mail.python.org/pipermail/python-list/2003-April/193167.html}%%%
+\DIFdel{\\\urlprefix\url{https://mail.python.org/pipermail/python-list/2003-April/193167.html}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
