@@ -205,21 +205,24 @@ York, NY, USA}}%%%
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{osti_6997568}
-%DIFDELCMD < \bibinfo{author}{Mor{\'e}, J.~J.}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{author}{Garbow, B.~S.} %%%
+\DIFdel{\bibinfo{author}{Mor{\'e}, J.~J.}}%%%
+\DIFdel{, \bibinfo{author}{Garbow, B.~S.}} %%%
 \DIFdel{\&
-  }%DIFDELCMD < \bibinfo{author}{Hillstrom, K.~E.}
-%DIFDELCMD < \newblock \bibinfo{title}{User guide for {MINPACK-1}}%%%
+\bibinfo{author}{Hillstrom, K.~E.}}
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{title}{User guide for {MINPACK-1}}}%%%
 \DIFdel{.
-}%DIFDELCMD < \newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{ANL-80-74}%%%
+}%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{type}{Tech. Rep.}} 
+\DIFdel{\bibinfo{number}{ANL-80-74}}%%%
 \DIFdel{,
   }%DIFDELCMD < \bibinfo{institution}{Argonne National Laboratory}%%%
 \DIFdel{,
   }%DIFDELCMD < \bibinfo{address}{Argonne, IL, USA} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{1980}%%%
+\DIFdel{(\bibinfo{year}{1980}}%%%
 \DIFdel{).
 }%DIFDELCMD < \newblock
-%DIFDELCMD <   \urlprefix\url{http://cds.cern.ch/record/126569/files/CM-P00068642.pdf}%%%
+\DIFdel{\urlprefix\url{http://cds.cern.ch/record/126569/files/CM-P00068642.pdf}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
