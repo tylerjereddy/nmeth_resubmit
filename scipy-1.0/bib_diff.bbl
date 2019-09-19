@@ -243,11 +243,11 @@ York, NY, USA}}%%%
   \urlprefix\url{https://web.archive.org/web/20001022231108/http://www.nmr.mgh.harvard.edu/Neural\_Systems\_Group/gary/python.html}.
 
 \DIFaddbegin \bibitem{first-scipy-rel}
-\bibinfo{author}{Jones, E.}
-\newblock \bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
-  {P}ython} \DIFadd{(}\bibinfo{year}{2001}\DIFadd{).
-}\newblock
-  \urlprefix\url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}\DIFadd{.
+\DIFadd{\bibinfo{author}{Jones, E.}}
+\newblock \DIFadd{\bibinfo{title}{{ANN}: {SciPy} 0.10 {--} scientific computing with
+  {P}ython}} \DIFadd{(\bibinfo{year}{2001})}
+\newblock
+  \DIFadd{\\\urlprefix\url{https://mail.python.org/pipermail/python-list/2001-August/106419.html}}\DIFadd{.
 }
 
 \DIFaddend \bibitem{archived-scipyorg}
