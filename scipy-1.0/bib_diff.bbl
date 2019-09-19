@@ -169,19 +169,19 @@
 \newblock \urlprefix\url{http://pylab.sourceforge.net/multipack.html}.
 
 \DIFdelbegin %DIFDELCMD < \bibitem{hindmarsh1983odepack}
-%DIFDELCMD < \bibinfo{author}{Hindmarsh, A.~C.}
-%DIFDELCMD < \newblock \bibinfo{journal}{\bibinfo{title}{{ODEPACK}, a systematized
-%DIFDELCMD <   collection of {ODE} solvers}}%%%
+\DIFdel{\bibinfo{author}{Hindmarsh, A.~C.}}
+\DIFdel{\newblock \bibinfo{journal}{\bibinfo{title}{{ODEPACK}, a systematized
+collection of {ODE} solvers}}}%%%
 \DIFdel{.
 }%DIFDELCMD < \newblock {%%%
-\emph{%DIFDELCMD < \JournalTitle{Scientific Computing}%%%
+\emph{\DIFdel{\JournalTitle{Scientific Computing}}%%%
 }%DIFAUXCMD
-%DIFDELCMD < } \bibinfo{pages}{55--64}
+\DIFdel{\bibinfo{pages}{55--64}}
 %DIFDELCMD <   %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{1983}%%%
+\DIFdel{(\bibinfo{year}{1983}}%%%
 \DIFdel{).
 }%DIFDELCMD < \newblock
-%DIFDELCMD <   \urlprefix\url{https://www3.nd.edu/~powers/ame.60636/hindmarsh1983.pdf}%%%
+\DIFdel{\urlprefix\url{https://www3.nd.edu/~powers/ame.60636/hindmarsh1983.pdf}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
