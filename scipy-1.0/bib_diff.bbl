@@ -324,13 +324,14 @@ Approach to {3D} Graphics}}%%%
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{mayavi-intro}
-%DIFDELCMD < \bibinfo{author}{Ramachandran, P.}
-%DIFDELCMD < \newblock \bibinfo{title}{{MayaVi} uses {P}ython for scientific data
-%DIFDELCMD <   visualization} %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{year}{2003}%%%
+\DIFdel{\bibinfo{author}{Ramachandran, P.}}
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{title}{{MayaVi} uses {P}ython for scientific data
+visualization}} %%%
+\DIFdel{(\bibinfo{year}{2003}}%%%
 \DIFdel{).
 }%DIFDELCMD < \newblock
-%DIFDELCMD <   \urlprefix\url{https://web.archive.org/web/20030731122452/http://pythonology.org/success\&story=mayavi}%%%
+\DIFdel{\\\urlprefix\url{https://web.archive.org/web/20030731122452/http://pythonology.org/success\&story=mayavi}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
