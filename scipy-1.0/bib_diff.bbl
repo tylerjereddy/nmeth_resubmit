@@ -336,25 +336,27 @@ visualization}} %%%
 }%DIFDELCMD < 
 
 %DIFDELCMD < \bibitem{Kluyver:2016aa}
-%DIFDELCMD < \bibinfo{author}{Kluyver, T.} %%%
+\DIFdel{\bibinfo{author}{Kluyver, T.}} %%%
 \emph{\DIFdel{et~al.}}
 %DIFAUXCMD
-%DIFDELCMD < \newblock \bibinfo{title}{{Jupyter Notebooks} -- a publishing format for
-%DIFDELCMD <   reproducible computational workflows}%%%
+%DIFDELCMD < \newblock 
+\DIFdel{\bibinfo{title}{{Jupyter Notebooks} -- a publishing format for
+reproducible computational workflows}}%%%
 \DIFdel{.
 }%DIFDELCMD < \newblock %%%
-\DIFdel{In }%DIFDELCMD < \bibinfo{editor}{Loizides, F.} %%%
-\DIFdel{\& }%DIFDELCMD < \bibinfo{editor}{Schmidt, B.}
+\DIFdel{In \bibinfo{editor}{Loizides, F.}} %%%
+\DIFdel{\& \bibinfo{editor}{Schmidt, B.}}
 %DIFDELCMD <   %%%
-\DIFdel{(eds.) }\emph{%DIFDELCMD < \bibinfo{booktitle}{Positioning and Power in Academic
-%DIFDELCMD <   Publishing: Players, Agents and Agendas}%%%
-}%DIFAUXCMD
-\DIFdel{, }%DIFDELCMD < \bibinfo{pages}{87 -- 90}
+\DIFdel{(eds.) \emph{\bibinfo{booktitle}{Positioning and Power in Academic
+Publishing: Players, Agents and Agendas}}}%%%
+%DIFAUXCMD
+\DIFdel{, \bibinfo{pages}{87 -- 90}}
 %DIFDELCMD <   %%%
-\DIFdel{(}%DIFDELCMD < \bibinfo{organization}{IOS Press}%%%
-\DIFdel{, }%DIFDELCMD < \bibinfo{year}{2016}%%%
+\DIFdel{(\bibinfo{organization}{IOS Press}}%%%
+\DIFdel{, \bibinfo{year}{2016}}%%%
 \DIFdel{).
-}%DIFDELCMD < \newblock \urlprefix\url{http://doi.org/10.3233/978-1-61499-649-1-87}%%%
+}%DIFDELCMD < \newblock 
+\DIFdel{\urlprefix\url{http://doi.org/10.3233/978-1-61499-649-1-87}}%%%
 \DIFdel{.
 }%DIFDELCMD < 
 
